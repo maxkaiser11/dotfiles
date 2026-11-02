@@ -1,9 +1,12 @@
 return {
-	{ "ellisonleao/gruvbox.nvim" },
+	{
+		"folke/tokyonight.nvim",
+		priority = 1000,
+	},
 	{
 		"LazyVim/LazyVim",
 		opts = {
-			colorscheme = "gruvbox",
+			colorscheme = "tokyonight-night",
 		},
 	},
 }
